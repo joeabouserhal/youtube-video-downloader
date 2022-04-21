@@ -12,6 +12,7 @@ def main():
     root.title("YouTube Downloader")
     root.geometry(f"{window_width}x{window_height}")
     root.resizable(False, False)
+    root.iconbitmap('./assets/photos/window_icon.ico')
     # label
     tk.Label(root, text="Enter YouTube URL:").pack()
     # text box
